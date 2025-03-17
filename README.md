@@ -1,20 +1,22 @@
-Environment name: transit-dashboard-dev-env
-
+# Transit Operations Dashboard
 
 # About
-- Users can select a corridor or transit route/line
+- This project uses open source data to build a dashboard summarizing service performance of transit routes
+- Users can select a corridor or transit route/line to see stats and charts such as headway, OTP, speed profile etc.
+- Transit Operations Dashboard is a full stack web application
 
 # Purpose
-- Analyze route performance
+- Enable users to investigate potential service impacts
 
+# Data Sources
+- [City of Toronto Open Data Portal](https://open.toronto.ca/)
+- [Mobility Database](https://mobilitydatabase.org/)
+- [OpenStreetMap](https://www.openstreetmap.org/about)
 
-Traffic Light Phase Convention
-1 
-2
-3
-4
-5
-6
-7
-8
-9 ped movement?
+# Technology
+## Front End
+- React.js
+
+## Back End
+- Django
+
